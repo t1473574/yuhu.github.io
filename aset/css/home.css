@@ -1,0 +1,256 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #F0EBE3;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'open sans','sans-serif';
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a {
+    font-size: 50px;
+    font-weight: bolder;
+    float: left;
+    font-family: 'Segoe UI';
+    color: #322C2B;
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 100px;
+    position: fixed;
+    top: 0;
+    background-color: white;
+    border-bottom: 5px solid  #322C2B;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+}
+
+a.tbl-biru {
+    background: #322C2B;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-biru:hover {
+    background: #948b8a;
+    text-decoration: none;
+}
+
+.kolom1 {
+    width: 600px;
+    height: 500px;
+    margin: 15px;
+    margin-top: 180px;
+    margin-left: 100px;
+    margin-right: 50px;
+    padding: 15px;
+    float: left;
+}
+
+.kolom1 img {
+    width: 600px;
+    height: 400px;
+    margin-left: 70px;
+    margin-right: 50px;
+}
+
+.kolom2 {
+    width: 400px;
+    height: 500px;
+    margin-top: 290px;
+    margin-left: 50px;
+    float: left;
+}
+
+.kolom2 h1 {
+    width: 600px;
+    font-family: 'Goudy Stout';
+    font-size: 25px;
+    color: rgb(85, 134, 161);
+    letter-spacing: 10px;
+    line-height: 50px;
+}
+
+.kolom2 p {
+    width: 550px;
+    font-family: 'roboto';
+    font-size: 22px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-align: justify;
+}
+
+.kolom3 {
+    width: 400px;
+    height: 500px;
+    margin-top: 170px;
+    margin-left: 230px;
+    margin-right: 90px;
+    float: left;
+}
+
+.kolom3 h1 {
+    width: 600px;
+    font-family: 'Goudy Stout';
+    font-size: 22px;
+    color: rgb(85, 134, 161);
+    letter-spacing: 10px;
+    line-height: 50px;
+}
+
+.kolom3 p {
+    width: 600px;
+    font-family: 'roboto';
+    font-size: 22px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-align: justify;
+}
+
+.kolom4 {
+    width: 600px;
+    height: 500px;
+    margin: 15px;
+    margin-bottom: 50px;
+    margin-left: 150px;
+    padding: 15px;
+    float: left;
+}
+
+.kolom4 img {
+    width: 500px;
+    height: 500px;
+}
+
+.kolom5 {
+    width: 1300px;
+    height: 100px;
+    margin: 15px;
+    margin-left: 130px;
+    margin-top: 100px;
+    padding: 15px;
+    float: left;
+}
+
+.kolom5 h1 {
+    font-family: 'Goudy Stout';
+    font-size: 25px;
+}
+
+.kolom5 p {
+    font-size: 22px;
+    margin-top: 10px;
+    letter-spacing: 1px;
+}
+
+.kolom6 {
+    background-color: #322C2B;
+    width: 300px;
+    height: 400px;
+    margin: 15px;
+    margin-left: 145px;
+    margin-bottom: 120px;
+    padding: 15px;
+    float: left;
+}
+
+.kolom6 img {
+    width: 280px;
+    height: 350px;
+    margin-left: 10px;
+}
+
+.kolom6 p {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 15px;
+    color: #F0EBE3;
+}
+
+#contact {
+    margin-top: 100px;
+    float: left;
+}
+
+.footer {
+    background-color: #413c3c;
+    width: 1580px;
+    height: 300px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-left: 0px;
+}
+
+.footer-section {
+    width: 20%;
+    margin: 0 auto;
+    font-size: 20px;
+    color: #fff8f5;
+    margin-top: 60px;
+}
+
+h3 {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 25px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    color: #fff8f5;
+    width: 100%;
+    line-height: 50px;
+}
+
+#copyright {
+    text-align: center;
+    width: 100%;
+    padding: 50px 0px 50px 0px;
+    margin-top: 50px;
+    float: left;
+}
+

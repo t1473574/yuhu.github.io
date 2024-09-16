@@ -1,0 +1,233 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #F0EBE3;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'open sans','sans-serif';
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a {
+    font-size: 50px;
+    font-weight: bolder;
+    float: left;
+    font-family: 'Segoe UI';
+    color: #322C2B;
+}
+
+.menu {
+    float: right;
+}
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 100px;
+    position: fixed;
+    top: 0;
+    background-color: white;
+    border-bottom: 5px solid  #322C2B;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+}
+
+a.tbl-biru {
+    background: #322C2B;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-biru:hover {
+    background: #d6d0d5;
+    text-decoration: none;
+}
+
+.kolom1 {
+    width: 600px;
+    height: 500px;
+    margin: 15px;
+    margin-top: 100px;
+    padding: 15px;
+    float: left ;
+
+}
+
+.kolom1 h1 {
+    width: 500px;
+    height: 500px;
+    letter-spacing: 10px;
+    line-height: 45px;
+    word-break: keep-all;
+    text-align: left;
+    text-transform: uppercase;
+    font-family:'Franklin Gothic Medium';
+    border-left: 5px solid;
+    padding-left: 18px;
+    margin-left: 110px;
+    align-content: center;
+}
+
+.kolom1 img {
+    width: 500px;
+    height: 500px;
+    border-left: 5px solid;
+    border-right: 5px solid ;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-left: 50px;
+}
+
+.kolom2 p {
+    background-color: #322C2B;
+    color: #F0EBE3;
+    width: 100%;
+    height: 70px;
+    float: left;
+    font-size: 25px;
+    text-align: center;
+    align-content: center;
+    text-transform: capitalize;
+    letter-spacing: 15px;
+    word-spacing: 2px;
+    margin-top: 30px;
+    margin-bottom: 90px
+}
+
+.kolom3 {
+    width: 1350px;
+    height: 250px;
+    margin: 15px;
+    margin-left: 100px;
+    margin-top: 150px;
+    padding: 15px;
+    float: left;
+}
+
+.kolom3 h1 {
+    text-align: center;
+    font-family: 'Gill Sans';
+    padding-bottom: 20px;
+}
+
+.kolom3 p {
+    font-size: 25px;
+}
+
+.kolom4 {
+    width: 100px;
+    margin: 15px;
+    padding: 15px;
+    float: left;
+    margin-right: 10px;
+    margin-left: 150px;
+    margin-bottom: 150px;
+}
+
+.kolom4 img {
+    width: 100px;
+
+}
+
+.kolom5 {
+    width: 300px;
+    height: 200px;
+    padding: 0px;
+    margin: 10px;
+    margin-top: 170px;
+    margin-bottom: 170px;
+    margin-left: 165px;
+    float: left;
+    border-top: 5px solid;
+}
+
+.kolom5 h1 {
+    font-weight: 600;
+    text-align: left;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.kolom5 p {
+    width: 300px;
+    font-size: 20px;
+    font-family: 'sans serif';
+    text-align: justify;
+}
+
+#contact {
+    margin-top: 100px;
+    float: left;
+}
+
+.footer {
+    background-color: #413c3c;
+    width: 1580px;
+    height: 300px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-left: 0px;
+}
+
+.footer-section {
+    width: 20%;
+    margin: 0 auto;
+    font-size: 20px;
+    color: #fff8f5;
+    margin-top: 60px;
+}
+
+h3 {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 25px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    color: #fff8f5;
+    width: 100%;
+    line-height: 50px;
+}
+
+#copyright {
+    text-align: center;
+    width: 100%;
+    padding: 50px 0px 50px 0px;
+    margin-top: 50px;
+    float: left;
+}

@@ -1,0 +1,235 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #F0EBE3;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'open sans','sans-serif';
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a {
+    font-size: 50px;
+    font-weight: bolder;
+    float: left;
+    font-family: 'Segoe UI';
+    color: #322C2B;
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 100px;
+    position: fixed;
+    top: 0;
+    background-color: white;
+    border-bottom: 5px solid  #322C2B;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+}
+
+a.tbl-biru {
+    background: #322C2B;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-biru:hover {
+    background: #d6d0d5;
+    text-decoration: none;
+}
+
+.bnnr {
+    background-image: url(../image/bnnr.jpg);
+    width: 1405px;
+    height: 550px;
+    margin-left: 90px;
+    margin-right: 0px;
+    margin-top: 170px;
+    margin-bottom: 150px;
+    border-radius: 100px;
+    border: 10px solid #322C2B;
+}
+
+.bnnr p {
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 700;
+    margin-left: 75px;
+    margin-top: 38px;
+}
+
+marquee {
+    background-color: #322C2B;
+    color: white;
+    align-content: center;
+    height: 40px;
+    border-radius: 20px;
+    margin: 35px;
+    margin-top: 100px;
+    padding: 10px;
+    padding-left: 30px;
+    font-size: 40px;
+    font-weight: 550;
+    font-family: 'comic sans serif';
+    letter-spacing: 70px;
+
+}
+
+.kolom6 {
+    margin: 20px;
+    margin-left: 50px;
+    margin-top: 40px;
+    margin-bottom: 100px;
+    padding: 20px;
+    float: left;
+    align-content: center;
+}
+
+
+.kolom6 img {
+    width: 240px;
+    margin: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 50px;
+    margin-left: 100px;
+}
+
+.kolom6 img:hover {
+    width: 280px;
+    border-radius: 60px;
+    transition: all .5s ease-in-out;
+}
+
+.kolom6 p {
+    background-color: #322C2B;
+    color: white;
+    width: 200px;
+    border-radius: 100px;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'comic sans ms';
+    text-align: center;
+    padding: 10px;
+    margin-left: 120px;
+}
+
+
+.kolom3 {
+    background-color: #413c3c;
+    width: 280px;
+    height: 350px;
+    margin: 20px;
+    margin-left: 80px;
+    margin-right: 0px;
+    margin-top: 100px;
+    margin-bottom:  100px;
+    padding: 20px;
+    float: left;
+    text-align: justify;
+    border-style: groove;
+    border-width: 50px;
+    border-color: white;
+}
+
+.kolom3 h3 {
+    font-family: 'comi';
+    font-size: 25px;
+    margin-top: 30px;
+    color: whitesmoke;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.kolom3 p {
+    width: 250px;
+    height: 200px;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    margin-top: 30px;
+    padding-left: 18px;
+    padding-right: -10px;
+}
+
+#contact {
+    margin-top: 100px;
+    float: left;
+}
+
+.footer {
+    background-color: #413c3c;
+    width: 1580px;
+    height: 300px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-left: 0px;
+}
+
+.footer-section {
+    width: 20%;
+    margin: 0 auto;
+    font-size: 20px;
+    color: #fff8f5;
+    margin-top: 60px;
+}
+
+h3 {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 25px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    color: #fff8f5;
+    width: 100%;
+    line-height: 50px;
+}
+
+#copyright {
+    text-align: center;
+    width: 100%;
+    padding: 50px 0px 50px 0px;
+    margin-top: 50px;
+    float: left;
+}
